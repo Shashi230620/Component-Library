@@ -7,14 +7,16 @@ import Intropage from "./Website/WebLayout/Intropage";
 import { Route, Routes } from "react-router-dom";
 
 const App=()=>{
-  return(<>
+  return(
+  <>
   <Routes>
-  <Route path="/" element={<Intropage />} />
-  <Route path="/overview" element={<Overview />} />
+  {/* <Route path="/" element={<Intropage />} /> */}
+  <Route path="/" element={<Overview />} />
  <Route path="/button" element={<Buttons />} />
  <Route path="/table" element={<Table />} />
  <Route path="/accordion" element={<Accorrdion />} />
   </Routes>
-  </>)
+  </>
+  )
 }
 export default App;

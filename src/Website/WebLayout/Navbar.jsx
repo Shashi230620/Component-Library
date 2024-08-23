@@ -4,7 +4,7 @@ const Navbar=()=>{
     return(<>
     <div className="Navbar">
         <div className="Navbar_Title">
-        <img src="./assests/fav.png" id="img"/>
+        <img src="./assests/fav.png" id="img" />
           <h1>Component Library</h1>
         </div>     
         <div className="Navbar_Buttons">
