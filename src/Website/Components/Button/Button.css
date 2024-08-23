@@ -1,0 +1,165 @@
+.Button_Heading_Div{
+    width:70%;
+    height:18vmin;
+    padding-left: 3%;
+    padding-top: 2%;
+    /* background-color: blueviolet; */
+  }
+  #Button_Heading{
+    font-size: 2.5vmin;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 3vmin;
+  }
+  .Different_Buttons{
+    width: 100%;
+    min-height:35vmin;
+    /* background-color: aqua; */
+  }
+  #btn_h1{
+    padding-left: 2.5%;
+    padding-top: 2%;
+  }
+  .Types_Buttons{
+    width:100%;
+    height:26vmin;
+    /* background-color: red; */
+    display: flex;
+    gap: 2%;
+    flex-wrap: nowrap;
+  }
+  .Button{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 15%;
+    height:40%;
+    /* background-color:wheat; */
+  }.btn_Basic_image{
+    width: 100%;
+    height:10%;
+    background-color: red;
+  }
+  .btn1{
+    width: 80%;
+    height:80%;
+    background-color: green;
+  }
+  .Default{
+    width: 80%;
+    height:80%;
+    background-color: orange;
+  }
+  #btn2{
+    width: 80%;
+    height:80%;
+    background-color: red;
+  }
+  #btn3{
+    width: 80%;
+    height:80%;
+  }
+  .btn4{
+    width: 80%;
+    height:80%;
+    background-color: white;
+    border: 2px groove blue;
+  }
+  .redBorder{
+    width: 80%;
+    height:80%;
+    background-color: white;
+    border: 2px groove red;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes color {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: aqua;}
+    75%  {border-color:black}
+    100% {border-color: chartreuse;}    
+  }
+  .btn5{
+    width: 80%;
+    height:80%;
+    border-radius: 10px;
+  }
+  .RoundBtn{
+    width: 80%;
+    height:80%;
+    border-radius: 50px;
+  }
+  .Button_Basic{
+    width: 70%;
+    min-height: 30vh;
+    /* background-color: burlywood; */
+    margin-left: 2%;
+  }
+  #btn_basic_heading{
+    font-size: 5vmin;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 2%;
+  
+  }
+  #btn_basic_para{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 3%;
+    line-height: 4.2vmin;
+  }
+  #Basic_btn_img{
+    margin-left: 25%;
+    margin-top: 2%;
+    width:50%;
+    height: 30vmin;
+  }
+#btn2{
+  border:none;
+  background-color: white;
+}
+button{
+  font-size: 2.3vmin;
+}
+/* ToggleSwitch.css */
+
+.toggle-switch {
+  width: 60%;
+  height: 70%;
+  /* background-color:blue; */
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch.on {
+  background-color:greenyellow;
+}
+
+.toggle-switch.off {
+  background-color: yellow;
+}
+
+.toggle-slider {
+  width: 40%;
+  height: 80%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transition: transform 0.3s;
+}
+
+.toggle-slider.on {
+  transform: translateX(70%);
+}
+
+.toggle-slider.off {
+  transform: translateX(-50%);
+}

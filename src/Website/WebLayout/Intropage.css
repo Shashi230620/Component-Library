@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    /* background-color: aqua; */
+}
+#Start_Button{
+ width: 15%;
+ height:10vmin;
+ background-color: rgb(175, 167, 167);
+ margin-left: 43%;
+ margin-top: 1%;
+ border: none;
+ font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vmin;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(10, 10, 10);
+}
+#Start_Button:hover{
+    background-color: rgb(138, 136, 136);
+    cursor: pointer;
+    width: 14.5%;
+    height:9.5vmin;
+}
+.Introduction{
+    width: 55%;
+    height:40vmin;
+    /* background-color: green; */
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#typewriter{
+    font-size: 6vmin;
+    line-height: 13vmin;
+}

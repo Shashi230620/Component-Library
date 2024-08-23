@@ -1,0 +1,82 @@
+.Accordion_Description{
+    width: 70%;
+    height:20vmin;
+    /* background-color: red; */
+    padding-top: 1.6%;
+    padding-left: 3%;
+}
+#Accord_h2{
+    line-height: 4vmin;
+}
+.Accordion_Parts_Description{
+    width: 60%;
+    /* background-color: red; */
+    margin-left: 5%;
+    padding-top: 1%;
+}
+ 
+/* src/Accordion.css */
+
+/* Container for the entire accordion */
+.Functional_Accordion{
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    outline: 2px solid black;
+    width: 70%;
+    margin-top: 3%;
+   min-height:40vmin;
+    background-color: rgb(255, 251, 251);
+    animation-name: Myaccord;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes  Myaccord {
+    0%   {outline-color: black;}
+    25%  {outline-color: white;}
+    50%  {outline-color: black;}
+    75%  {outline-color:white}
+    100% {outline-color: black;}  
+}
+.Functional_Div{
+    width: 80%;
+    min-height:30vmin;
+    /* background-color: red; */
+    margin-left: 8%;
+    padding-top: 7%;
+}
+ .Accordion_Divv{
+    width: 100%;
+    min-height:6vmin;
+    background-color: aliceblue;
+ }
+  .Btn_Toshow{
+    width: 100%;
+    height:50%;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    color: white;
+  }
+  .Value_div{
+   width: 90%;
+  }
+  .Accordion_icon{
+    width: 10%;
+    padding-left: 4%;
+  }
+  #img5{
+    height: 3vmin;
+  }
+  .Btn_Toshow:hover{
+     background-color: rgb(44, 44, 44);
+     cursor: pointer;
+  }
+  .click{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(218, 208, 208);
+  }
+  .Accordion_Parts{
+    /* background-color: green; */
+    margin-top: 4%;
+  }
