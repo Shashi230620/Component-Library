@@ -8,9 +8,8 @@ import { useEffect } from "react";
 const Intropage=()=>{
     useEffect(()=>{
         new Typewriter('#typewriter', {
-            strings: ['HI!guys my name is shashi welcome to my component liberary',
-                'Thanks for visiting I hope you learn Something from this site',
-                'Click the below "Button" to Entering the Website'
+            strings: ['WELCOME TO MY COMPONENT LIBERARY','HOPE YOU LEARN SOMETHING',
+                'CLICK BELOW TO START'
             ],
             autoStart: true,
             delay:"40",

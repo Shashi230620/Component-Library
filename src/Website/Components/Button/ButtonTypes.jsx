@@ -1,14 +1,13 @@
 import React from 'react'
 import { useState } from 'react'
+import BasicButton from './Buttons types/BasicButton'
+import IconButton from './Buttons types/IconButton'
 
 const ButtonTypes=()=> {
-    const[Color,setColor]=useState('BASIC')
     const[Border,setBorder]=useState('Border')
     const[Round,setRound]=useState('10px')
     const [isOn, setIsOn] = useState(false);
-    const button1=()=>{
-      setColor(change=>(change==="BASIC"?'DEFAULT':'BASIC'))
-    }
+   
     const button4 =()=>{
      setBorder(redBorder=>(redBorder==="Border"?"Red":"Border"))
     }
@@ -24,12 +23,8 @@ const ButtonTypes=()=> {
     <div className='Different_Buttons'>
     <h1 id='btn_h1'>Types of Buttons</h1>
     <div className='Types_Buttons'>
-      <div className='Button'>
-        <button className={`btn1 ${Color==="BASIC"?"btn1":"Default"}`} onClick={button1}>{Color}</button>
-      </div>
-      <div className='Button'>
-        <button id='btn2'><i class="fa-solid fa-phone"></i></button>
-      </div>
+      <BasicButton />
+    <IconButton />
       <div className='Button'>
       <div
         className={`toggle-switch ${isOn ? 'on' : 'off'}`}

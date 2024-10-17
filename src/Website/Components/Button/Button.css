@@ -38,7 +38,7 @@
   }.btn_Basic_image{
     width: 100%;
     height:10%;
-    background-color: red;
+    /* background-color: red; */
   }
   .btn1{
     width: 80%;
@@ -113,10 +113,10 @@
     line-height: 4.2vmin;
   }
   #Basic_btn_img{
-    margin-left: 25%;
+    margin-left: 35%;
     margin-top: 2%;
-    width:50%;
-    height: 30vmin;
+    width:20%;
+    height: 10vmin;
   }
 #btn2{
   border:none;

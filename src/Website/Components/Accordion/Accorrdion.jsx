@@ -11,8 +11,7 @@ const Accorrdion=()=> {
       <Final heading={"ACCORDION"}
       write={
         <>
-       <Accordion_heading />
-       <Accordion_Table
+        <Accordion_Table
         id_1={"Accordion 1"}
         content_1={"Content 1"}
         id_2={"Accordion 2"}
@@ -22,8 +21,19 @@ const Accorrdion=()=> {
         id_4={"Accordion 4"}
         content_4={"Content 4"}
         />
-        <Accordion_Parts />
+       <Accordion_heading />
+       <Accordion_Table
+        id_1={"Q1.What is our Planet Name"}
+        content_1={"Ans.Earth"}
+        id_2={"Q2.How many Moons Our Solor System Have"}
+        content_2={"Ans.Only One"}
+        id_3={"Q3.How Many Planets Our solar System Have"}
+        content_3={"Ans.Their Are Eight Planets"}
+        id_4={"Q4.How Is The Largest Planet In Our Solar System"}
+        content_4={"Ans.Jupiter"}
+        />
       
+        <Accordion_Parts />
         </>
       }
       />
