@@ -4,7 +4,7 @@ import Table from "./Website/Components/Table/Table";
 import Overview from "./Website/Components/Overview/OVERVIEW";
 import Accorrdion from "./Website/Components/Accordion/Accorrdion";
 import Intropage from "./Website/WebLayout/Intropage";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 const App=()=>{
   return(
@@ -15,6 +15,8 @@ const App=()=>{
  <Route path="/button" element={<Buttons />} />
  <Route path="/table" element={<Table />} />
  <Route path="/accordion" element={<Accorrdion />} />
+
+ <Route path="*" element={<Navigate to="/" />} />
   </Routes>
   </>
   )
