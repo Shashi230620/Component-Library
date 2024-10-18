@@ -58,7 +58,7 @@ body{
     height: 100%;
     margin-left: 32%;
 }
-#iconarrow:hover{
+#iconarrow{
     margin-left: 5%;
     animation-delay: 1s;
      animation: moveArrow 1s ease-in-out infinite;
