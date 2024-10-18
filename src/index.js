@@ -8,7 +8,7 @@ import Intropage from './Website/WebLayout/Intropage';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HashRouter>
-      <Intropage />
+      <App />
     </HashRouter>
   </React.StrictMode>
 );
