@@ -4,12 +4,12 @@ import Navbar from "./Navbar";
 import Typewriter from 'typewriter-effect/dist/core';
 import "./Intropage.css";
 import { useEffect } from "react";
+import introimage from "../assests/fav.png"
 
 const Intropage=()=>{
     useEffect(()=>{
         new Typewriter('#typewriter', {
-            strings: ['WELCOME TO MY COMPONENT LIBERARY','HOPE YOU LEARN SOMETHING',
-                'CLICK BELOW TO START'
+            strings: ['COMPONENT LIBERARY','ACCESS BY CLICKING'
             ],
             autoStart: true,
             delay:"40",
@@ -20,10 +20,16 @@ const Intropage=()=>{
     return(
         <>
         <Navbar />
+        <div className="intropage">
+            <div className="intropage_image">
+            <img src={introimage} id="introimage"/>
+            </div>
         <div className="Introduction">
             <h1 id="typewriter"></h1>
         </div>
-        <Link to="/overview"><li><button id="Start_Button">Start</button></li></Link>
+        </div>
+       
+        <Link to="/overview"><li><button id="Start_Button"><i class="fa-solid fa-arrow-right" id="iconarrow"></i></button></li></Link>
         </>
     )
 }

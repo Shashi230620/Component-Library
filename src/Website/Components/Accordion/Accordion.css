@@ -56,6 +56,7 @@
     background-color: rgb(27, 26, 26);
     display: flex;
     color: white;
+    font-size: 2vmin;
   }
   .Value_div{
    width: 90%;
@@ -68,13 +69,15 @@
     height: 3vmin;
   }
   .Btn_Toshow:hover{
-     background-color: rgb(44, 44, 44);
+     background-color: white;
      cursor: pointer;
+     color:black;
   }
   .click{
     width: 100%;
     height: 50%;
     background-color: rgb(218, 208, 208);
+    font-size: 2vmin;
   }
   .Accordion_Parts{
     /* background-color: green; */

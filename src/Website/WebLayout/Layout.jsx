@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Content from "./Content's"
 import Footer from "./Footer";
+
+
 const Final=({write,heading})=>{
     return(<>
         <Navbar />
