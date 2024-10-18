@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Accordion.css"
+import downArrow from "../../assests/down-arrow.png"
 
 const Accordion_Table = ({id_1,id_2,id_3,id_4,content_1,content_2,content_3,content_4}) => {
   const AccordionArray=[
@@ -32,7 +33,7 @@ const Accordion_Table = ({id_1,id_2,id_3,id_4,content_1,content_2,content_3,cont
             {value.id}
             </div>
             <div className='Accordion_icon'>
-              <img src='/assests/down-arrow.png'  id='img5'/>
+              <img src={downArrow} id='img5'/>
             </div>
           </div>
           <div className="click">

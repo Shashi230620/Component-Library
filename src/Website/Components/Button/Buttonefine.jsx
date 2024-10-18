@@ -1,6 +1,6 @@
 import React from 'react'
 import Classicfication from './Classicfication';
-import details from './Array';
+import details from "./Array.js";
 const Buttonefine=()=> {
   return (
     <>
