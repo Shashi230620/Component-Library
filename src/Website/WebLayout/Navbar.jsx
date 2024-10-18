@@ -5,7 +5,7 @@ const Navbar=()=>{
     <div className="Navbar">
         <div className="Navbar_Title">
         <img src={navbaricon} id="img" />
-          <h1>Component Library</h1>
+          <h1 id="navbar_heading">Component Library</h1>
         </div>     
         <div className="Navbar_Buttons">
             <div className="Navbar_Search">

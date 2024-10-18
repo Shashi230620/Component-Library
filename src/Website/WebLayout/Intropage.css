@@ -35,8 +35,10 @@ body{
     padding-top: 1%;
 }
 #typewriter{
-    font-size: 3vmin;
+    font-size: 5vmin;
     line-height: 13vmin;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 .intropage{
     width: 60%;

@@ -9,7 +9,7 @@ import introimage from "../assests/fav.png"
 const Intropage=()=>{
     useEffect(()=>{
         new Typewriter('#typewriter', {
-            strings: ['COMPONENT LIBERARY','ACCESS BY CLICKING'
+            strings: ['Component Library','Access By Clicking'
             ],
             autoStart: true,
             delay:"40",
