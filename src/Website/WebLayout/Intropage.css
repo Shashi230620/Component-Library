@@ -58,6 +58,19 @@ body{
     height: 100%;
     margin-left: 32%;
 }
-#iconarrow{
+#iconarrow:hover{
     margin-left: 5%;
+    animation-delay: 1s;
+     animation: moveArrow 1s ease-in-out infinite;
 }
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px); /* Move to the right */
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
