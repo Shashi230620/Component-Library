@@ -16,7 +16,7 @@ const App=()=>{
  <Route path="/table" element={<Table />} />
  <Route path="/accordion" element={<Accorrdion />} />
 
- <Route path="*" element={<Navigate to="/" />} />
+ {/* <Route path="*" element={<Navigate to="/" />} /> */}
   </Routes>
   </>
   )
